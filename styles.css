@@ -9,3 +9,26 @@ body {
     padding: 2rem;
     width: 100%;
 }
+
+.hero-text-main, .logo {
+    color: #f9faf8;
+}
+
+.hero-text-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero-text-secondary, .header-link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.signup-button {
+    color: #f9faf8;
+    font-weight: bold;
+}
