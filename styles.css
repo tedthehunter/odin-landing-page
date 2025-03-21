@@ -50,7 +50,8 @@ body {
     display: flex;
     width: 75%;
     margin: 48px;
-    gap: 24px;
+    gap: 5%;
+    justify-content: space-between;
     align-items: stretch;
 }
 
@@ -64,4 +65,8 @@ img {
     background-color: grey;
     width: 75%;
     height: 200px;
+}
+
+.signup-button {
+    background-color: #3882f6;
 }
