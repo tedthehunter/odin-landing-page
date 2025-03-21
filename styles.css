@@ -54,6 +54,12 @@ body {
     align-items: stretch;
 }
 
+.hero-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 img {
     background-color: grey;
     width: 75%;
