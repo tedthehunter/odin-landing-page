@@ -62,7 +62,7 @@ body {
     align-items: start;
 }
 
-img {
+.hero-img {
     background-color: grey;
     width: 75%;
     height: 200px;
