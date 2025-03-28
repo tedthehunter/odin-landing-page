@@ -67,6 +67,7 @@ body {
     background-color: grey;
     width: 75%;
     height: 200px;
+    border: 0;
 }
 
 .signup-button {
@@ -92,7 +93,7 @@ body {
 .thumbnail-container {
     display: flex;
     justify-content: space-evenly;
-    gap: 32px;
+    width: 40%;
 }
 
 .thumbnail {
@@ -105,8 +106,8 @@ body {
 }
 
 .thumbnail-img {
-    border-color: #3882f6;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
     width: 120px;
     height: 120px;
-    border-width: medium;
 }
