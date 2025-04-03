@@ -142,14 +142,11 @@ body {
 }
 
 .action {
-    display: flex;
     width: 75%;
-    margin: auto;
-    gap: 5%;
-    justify-content: space-between;
-    align-items: center;
+    margin: 72px auto;
     background-color: #3882f6;
     padding: 2rem 3rem;
+    border-radius: 12px;
 }
 
 .action-content {
