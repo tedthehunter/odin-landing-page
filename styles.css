@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 
-.hero-text-main, .logo {
+.hero-text-main, .logo, .action-header {
     color: #f9faf8;
 }
 
@@ -23,13 +23,13 @@ body {
     margin: 0%;
 }
 
-.logo {
+.logo, .action-header {
     font-size: 24px;
     margin-right: auto;
     font-weight: 900;
 }
 
-.hero-text-secondary, .header-link {
+.hero-text-secondary, .header-link, .action-text {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -149,4 +149,18 @@ body {
     justify-content: space-between;
     align-items: stretch;
     background-color: #3882f6;
+}
+
+.action-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-header {
+    margin: 0%;
+}
+
+.action-text {
+    margin: 0%;
 }
