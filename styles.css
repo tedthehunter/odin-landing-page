@@ -29,7 +29,7 @@ body {
     font-weight: 900;
 }
 
-.hero-text-secondary, .header-link, .action-text {
+.hero-text-secondary, .header-link, .action-text, .footer {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -175,4 +175,12 @@ body {
 #action-button {
     border: 3px solid #f9faf8;
     border-radius: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 1.5rem;
 }
